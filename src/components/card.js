@@ -62,8 +62,6 @@ const cardAppender = (selector) => {
   .then(res=>{
     const object = res.data.articles;
     const array = Object.values(object);
-    // console.log(object);
-    // console.log(array);
     array.forEach(element=>{
       element.forEach(item=>{
         

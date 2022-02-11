@@ -64,3 +64,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 3. What is an event listener?
 4. Why would we convert a NodeList into an Array?
 5. What is a component?
+
+
+(1) The DOM is the Document Object Model, basically it defines how the web page looks and interacts
+(2) an event is anything that happens within the page that can be any user interaction or browser manipulation such as loading 
+(3) an event listener takes 2 parameters the event that its listening for and then an anonymous or callback function that tells it what to do when the event happens
+(4) a NodeList doesn't have every method that Arrays do such as push() pop() shift() unshift() so if you want to manipulate the data you need to turn it into an Array
+(5) a component is a reusable dry function to create new html css javascript
